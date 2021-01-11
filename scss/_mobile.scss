@@ -1,0 +1,12 @@
+@include bp-mobile {
+	.main-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: min-content;
+		grid-template-areas:
+			'daniel'
+			'jonathan'
+			'jeanette'
+			'patrick'
+			'kira';
+	}
+}

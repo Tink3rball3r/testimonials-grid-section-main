@@ -1,0 +1,21 @@
+:root {
+	--clr-1: hsl(263, 55%, 52%);
+	--clr-2: hsl(217, 19%, 35%);
+	--clr-3: hsl(219, 29%, 14%);
+	--clr-4: hsl(0, 0%, 100%);
+	--clr-5: hsl(0, 0%, 81%);
+	--clr-6: hsl(210, 46%, 95%);
+
+	--bg-clr: var(--clr-5);
+	--fc-light: var(--clr-4);
+	--fc-dark: var(--clr-3);
+
+	--box-pad: 1.5rem;
+	--box-mar: 1rem;
+}
+
+@mixin bp-mobile {
+	@media (max-width: 500px) {
+		@content;
+	}
+}
