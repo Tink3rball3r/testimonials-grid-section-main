@@ -166,14 +166,34 @@ body {
   border: 2px dotted var(--clr-1);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
+  body {
+    margin: 4rem 0;
+  }
   .main-container {
+    width: 85%;
+  }
+  .members_testimony-heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 2rem 0;
+  }
+  .main-container {
+    width: 85%;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: min-content;
         grid-template-rows: -webkit-min-content;
         grid-template-rows: min-content;
         grid-template-areas: 'daniel' 'jonathan' 'jeanette' 'patrick' 'kira';
+  }
+  .attribution {
+    width: 300px;
+    font-size: 0.7rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

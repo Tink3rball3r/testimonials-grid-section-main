@@ -1,5 +1,9 @@
 @include bp-mobile {
+	body {
+		margin: 2rem 0;
+	}
 	.main-container {
+		width: 85%;
 		grid-template-columns: 1fr;
 		grid-template-rows: min-content;
 		grid-template-areas:
@@ -8,5 +12,10 @@
 			'jeanette'
 			'patrick'
 			'kira';
+	}
+
+	.attribution {
+		width: 300px;
+		font-size: 0.7rem;
 	}
 }
